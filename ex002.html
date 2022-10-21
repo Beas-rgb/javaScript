@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+  <script>
+    var nome = prompt('Qual é seu nome')
+    document.write(`Olá <strong>${nome}</strong>! Seu nome tem ${nome.length} letras. <br/>`)
+    document.write(`Seu nome em maiúsculo é ${nome.toUpperCase()}<br/>`)
+    document.write(`Seu nome em minúsculo é ${nome.toLowerCase()}`)
+
+    var n1 = 1545.5
+    // n1.toFixed(2) -> adiciona duas casas decimais que ficari 1545.50
+
+    // n1.toFixed(2).replace('.' , ',') -> troca o ponto no numero para virgula
+
+    // n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) -> tranforma para o nosso feito que ficaria 1545.5 para R$1,545.5
+
+  </script>
+
+</body>
+</html>
